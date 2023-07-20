@@ -2,26 +2,314 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Nike</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Serif&family=Playfair+Display&family=Roboto:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Salsa&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+
+    // подключите slick-theme.css для использования стандартной темы отображения
+    навигации
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <h1>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, hic.
-    </h1>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, quae, hic
-      omnis iure magni ex totam voluptatibus facere beatae animi ducimus!
-      Perferendis unde consectetur reprehenderit incidunt consequatur temporibus
-      rem quis!
-    </p>
-    <ul>
-      <li>text</li>
-      <li>text</li>
-      <li>Start</li>
-      <li>text</li>
-      <li>text</li>
-    </ul>
+    <header class="header">
+      <div class="container">
+        <a class="header_logo" href="#"
+          ><img src="./icons/logo.svg" alt="logo"
+        /></a>
+        <div class="header_adaptive-block">
+          <nav class="header_navigation">
+            <ul class="header_menu">
+              <li class="header_item">
+                <a class="header_menu-link" href="#">Main page</a>
+              </li>
+              <li class="header_item">
+                <a class="header_menu-link" href="#">Benefits</a>
+              </li>
+              <li class="header_item">
+                <a class="header_menu-link" href="#">Advantages</a>
+              </li>
+              <li class="header_item">
+                <a class="header_menu-link" href="#">Reviews</a>
+              </li>
+              <li class="header_item">
+                <a class="header_menu-link" href="#">Contacts</a>
+              </li>
+              <li class="header_item">
+                <a class="header_menu-link" href="#">Order</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="header_language">
+            <a class="header_menu-link" href="#">Ua</a>
+            <a class="header_menu-link" href="#">Eng</a>
+          </div>
+        </div>
+        <div class="hamburger"><span></span><span></span><span></span></div>
+      </div>
+    </header>
+    <main>
+      <section class="promo">
+        <div class="container">
+          <div class="promo_logo">
+            <img src="./icons/logo.svg" alt="logo" />
+            <h3 class="promo_logo-title">С&R</h3>
+          </div>
+          <h1 class="promo_title">ColoRawe</h1>
+          <h2 class="promo_subtitle">Your dream Nike</h2>
+          <p class="promo_descr">
+            On this site you can find custom Nike sneakers of your dreams.
+            <br />
+            The original company caт`t create such beautiful <br />
+            sneakers as we do.
+            <br />
+            Good luck finding your way in the world of custom sneakers.
+          </p>
+          <button class="promo_btn btn">Buy my Nike</button>
+        </div>
+      </section>
+      <section class="advantages">
+        <div class="container">
+          <ul class="advantages_list">
+            <li class="advantages_item">
+              <div class="advantages_block">
+                <h3 class="advantages_item-title">
+                  Premium <br />
+                  Quality
+                </h3>
+                <div class="advantages_img">
+                  <img src="./icons/stars.png" alt="star" />
+                </div>
+              </div>
+            </li>
+            <li class="advantages_item">
+              <div class="advantages_block">
+                <h3 class="advantages_item-title">
+                  Indelible <br />
+                  paint
+                </h3>
+                <div class="advantages_img">
+                  <img src="./icons/paints.png" alt="star" />
+                </div>
+              </div>
+            </li>
+            <li class="advantages_item">
+              <div class="advantages_block">
+                <h3 class="advantages_item-title">
+                  Fast <br />
+                  shipping
+                </h3>
+                <div class="advantages_img">
+                  <img src="./icons/bus.png" alt="star" />
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <hr />
+      <section class="reviews">
+        <div class="reviews_bg">
+          <div class="container">
+            <h2 class="reviews_title title">Reviews</h2>
+            <div class="review_slider">
+              <button class="reviews_arrow-left reviews_arrow">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="45"
+                  height="45"
+                  viewBox="0 0 45 45"
+                  fill="none"
+                >
+                  <circle
+                    cx="22.5"
+                    cy="22.5"
+                    r="22.5"
+                    transform="matrix(-1 0 0 1 45 0)"
+                    fill="#8E32C6"
+                  />
+                  <path
+                    d="M27 8.99988L13.5 22.4999L27 35.9999"
+                    stroke="#FFB549"
+                    stroke-width="3"
+                    stroke-linecap="round"
+                  />
+                </svg>
+              </button>
+              <div class="reviews_slider-inner">
+                <ul class="reviews_list">
+                  <li class="reviews_item">
+                    <p class="reviews_item-descr">
+                      Sneakers are very comfortable and well painted, nothing
+                      has worn off in a year.
+                    </p>
+                    <span class="reviews_item-text reviews_item-data"
+                      >25.11</span
+                    >
+                    <div class="reviews_item-box">
+                      <div class="reviews_item-img">
+                        <img src="./icons/john.png" alt="john" />
+                      </div>
+                      <div class="reviews_item-text">
+                        <h4 class="reviews_item-title">John Teylor</h4>
+                        <h5 class="reviews_item-text reviews_item-subtitle">
+                          With us from 2018
+                        </h5>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="reviews_item">
+                    <p class="reviews_item-descr">
+                      I'm very happy with this color scheme. They match all my
+                      clothes.
+                    </p>
+                    <span class="reviews_item-text reviews_item-data"
+                      >05.01</span
+                    >
+                    <div class="reviews_item-box">
+                      <div class="reviews_item-img">
+                        <img src="./icons/elis.png" alt="elis" />
+                      </div>
+                      <div class="reviews_item-text">
+                        <h4 class="reviews_item-title">Elizabeth Garsia</h4>
+                        <h5 class="reviews_item-text reviews_item-subtitle">
+                          With us from 2020
+                        </h5>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="reviews_item">
+                    <p class="reviews_item-descr">
+                      Just right if you need to go to a party. I use them
+                      actively, the paint is super.
+                    </p>
+                    <span class="reviews_item-text reviews_item-data"
+                      >18.06</span
+                    >
+                    <div class="reviews_item-box">
+                      <div class="reviews_item-img">
+                        <img src="./icons/tom.png" alt="tom" />
+                      </div>
+                      <div class="reviews_item-text">
+                        <h4 class="reviews_item-title">Tom Maquare</h4>
+                        <h5 class="reviews_item-text reviews_item-subtitle">
+                          With us from 2019
+                        </h5>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <button class="reviews_arrow-right reviews_arrow">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="45"
+                  height="45"
+                  viewBox="0 0 45 45"
+                  fill="none"
+                >
+                  <circle cx="22.5" cy="22.5" r="22.5" fill="#8E32C6" />
+                  <path
+                    d="M18 9L31.5 22.5L18 36"
+                    stroke="#FFB549"
+                    stroke-width="3"
+                    stroke-linecap="round"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr />
+      <section class="order">
+        <div class="container">
+          <h2 class="order_title title">Order</h2>
+          <form class="order_form">
+            <div class="order_email">
+              <input type="email" placeholder="Write your email " />
+              <input type="button" value="Confirm" />
+            </div>
+
+            <input type="text" placeholder="Your Country" />
+            <input type="text" placeholder="Your City" />
+            <input type="text" placeholder="Your Adress" />
+            <button class="order_btn btn">Order my Nike</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <table class="footer_table">
+          <tr>
+            <th>Have a question?</th>
+            <th>Have a proposal for cooperation?</th>
+            <th>Advertising questions?</th>
+          </tr>
+          <tr>
+            <td>
+              <a href="mailto:ColoRawe_support@gmail.com"
+                >ColoRawe_support@gmail.com</a
+              >
+            </td>
+            <td>
+              <a href="mailto:ColoRawe_Cooperation@gmail.com"
+                >ColoRawe_Cooperation@gmail.com</a
+              >
+            </td>
+            <td>
+              <a href="mailto:ColoRawe_Advertising@gmail.com"
+                >ColoRawe_Advertising@gmail.com</a
+              >
+            </td>
+          </tr>
+        </table>
+        <hr />
+        <div class="footer_wrapper">
+          <div class="footer_copyright">
+            <span>2022 ColoRawe @All rights reserved</span>
+            <span>United States</span>
+          </div>
+          <div class="promo_logo footer_logo">
+            <img src="./icons/logo.svg" alt="logo" />
+            <h3 class="promo_logo-title footer_logo-title">С&R</h3>
+          </div>
+        </div>
+      </div>
+    </footer>
+    // jquery
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"
+    ></script>
+
+    // slick.min.js
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="./js/script.js"></script>
   </body>
 </html>
