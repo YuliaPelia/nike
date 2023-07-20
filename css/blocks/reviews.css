@@ -1,0 +1,104 @@
+.reviews {
+    background: url(../../img/bg_reviews.png) center/cover no-repeat;
+}
+
+.reviews_bg {
+    background: url(../../img/flowers.png) left bottom no-repeat;
+    padding: 24px 0 115px 0;
+
+}
+
+.reviews_item {
+    border-radius: 15px;
+
+    padding: 50px 9px 30px 18px;
+    width: 255px;
+    height: 292px;
+}
+
+.reviews_item:nth-child(1) {
+    background: linear-gradient(135deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.50%, #CC5EC2 100%);
+    box-shadow: 0px 14px 0px -5px #7B54B2,
+        0px 30px 0px -13px #533978;
+
+}
+
+.reviews_item:nth-child(2) {
+    background: linear-gradient(135deg, #FF68B4 0%, #FF45E1 26.04%, #CE3AFF 62.84%, #8961FF 100%);
+    box-shadow:
+        0px 14px 0px -5px #9159B1,
+        0px 30px 0px -13px #61337C;
+}
+
+.reviews_item:nth-child(3) {
+    background: linear-gradient(135deg, #FFE128 0%, #FF9B5C 30.21%, #FF8381 63.29%, #FF5489 100%);
+    box-shadow: 0px 14px 0px -5px #B95A4C,
+        0px 30px 0px -13px #732F26;
+}
+
+
+
+.reviews_item-descr {
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+
+.reviews_item-text {
+    color: #D8D8D8;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.reviews_item-title {
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+
+.reviews_item-data {
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+.reviews_item-subtitle {
+    font-size: 12px;
+    margin: 0;
+}
+
+.reviews_item-img {
+    width: 31px;
+    height: 31px;
+    border-radius: 100%;
+}
+
+.reviews_item-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.reviews_item-box {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.reviews_list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.reviews_arrow {
+    display: none;
+}

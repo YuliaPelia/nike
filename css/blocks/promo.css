@@ -1,0 +1,39 @@
+.promo {
+    padding: 95px 0 185px;
+    background: url(../../img/main_bg.png) center/cover no-repeat;
+}
+
+.promo_logo-title {
+    color: #FFF;
+    font-size: 48px;
+    font-family: PT Serif;
+    font-weight: 100;
+    margin: 0;
+}
+
+.promo_title {
+    color: #FFF;
+    font-size: 144px;
+    font-family: Playfair Display;
+    margin: 0;
+}
+
+.promo_subtitle {
+    color: #FFF;
+    font-size: 72px;
+    font-family: Playfair Display;
+    margin: 0;
+}
+
+.promo_descr {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 300;
+    margin: 0;
+    margin-top: 12px;
+}
+
+.promo_btn {
+    margin-top: 41px;
+    padding: 19px 61px;
+}
