@@ -1,3 +1,27 @@
+/* .title {
+    color: aqua;
+    font-size: 80px;
+}
 h1 {
     font-size: 10px;
+    color: red;
+}
+#text {
+    color: blue;
+} */
+
+p {
+    color: aqua !important;
+}
+p {
+    color: rgb(255, 0, 119);
+}
+
+a:link {
+    color: chocolate;
+    font-size: 20px;
+}
+a:visited {
+    color: green;
+    font-size: 30px;
 }
